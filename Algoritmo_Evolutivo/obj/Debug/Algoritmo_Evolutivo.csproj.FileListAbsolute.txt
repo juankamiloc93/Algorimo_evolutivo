@@ -1,0 +1,7 @@
+C:\Users\juank\source\repos\Algoritmo_Evolutivo\Algoritmo_Evolutivo\bin\Debug\Algoritmo_Evolutivo.exe.config
+C:\Users\juank\source\repos\Algoritmo_Evolutivo\Algoritmo_Evolutivo\bin\Debug\Algoritmo_Evolutivo.exe
+C:\Users\juank\source\repos\Algoritmo_Evolutivo\Algoritmo_Evolutivo\bin\Debug\Algoritmo_Evolutivo.pdb
+C:\Users\juank\source\repos\Algoritmo_Evolutivo\Algoritmo_Evolutivo\obj\Debug\Algoritmo_Evolutivo.csprojAssemblyReference.cache
+C:\Users\juank\source\repos\Algoritmo_Evolutivo\Algoritmo_Evolutivo\obj\Debug\Algoritmo_Evolutivo.csproj.CoreCompileInputs.cache
+C:\Users\juank\source\repos\Algoritmo_Evolutivo\Algoritmo_Evolutivo\obj\Debug\Algoritmo_Evolutivo.exe
+C:\Users\juank\source\repos\Algoritmo_Evolutivo\Algoritmo_Evolutivo\obj\Debug\Algoritmo_Evolutivo.pdb
