@@ -11,14 +11,14 @@ namespace Algoritmo_Evolutivo
         static void Main(string[] args)
         {           
             string objetivo = "MVM INGENIERIA DE SOFTWARE";           
-            Cadena cadena = new Cadena(26);
+            Cadena cadena = new Cadena(objetivo.Length);
             bool logrado = false;
             int generacion = 1;
             while (!logrado)               
             {
                 int puntuacionMayor = -1;
                 string cadenaString = cadena.getCadena();
-                for (int i=1; i<50; i++)             
+                for (int i=1; i<50000; i++)             
                 {
                     Cadena cadenaMutar = new Cadena(cadenaString);
                     cadenaMutar.mutar();
@@ -30,7 +30,7 @@ namespace Algoritmo_Evolutivo
                     }
                 }
                 Console.WriteLine($"Generación: {generacion} - Mutación: {cadena.getCadena()} - Puntaje: {puntuacionMayor}");
-                logrado = puntuacionMayor==26;
+                logrado = puntuacionMayor==objetivo.Length;
                 generacion++;
             }
             Console.WriteLine("Presione un tecla para salir...");

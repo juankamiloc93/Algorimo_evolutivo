@@ -49,18 +49,24 @@ public class Cadena
     }
 
     public void mutar()
-    {       
-        bool mutado = false;        
-        int posicion = this.aleatorio.Next(0, this.cadena.Length);
-        char caracter;        
-        while (!mutado)
+    {
+        for(int i=0; i<this.cadena.Length; i++)
         {
-            caracter = this.CarcaterAleatorio();
-            if (this.cadena[posicion] != caracter)
+            bool mutado = false;
+            int probabilidad = this.aleatorio.Next(1, 100);
+            if (probabilidad <= 3)
             {
-                this.cadena[posicion] = caracter;
-                mutado = true;
-            }
-        }        
+                while (!mutado)
+                {
+                    char caracter = this.CarcaterAleatorio();
+                    if (this.cadena[i] != caracter)
+                    {
+                        this.cadena[i] = caracter;
+                        mutado = true;
+                    }
+                }
+            }               
+
+        }             
     }
 }
