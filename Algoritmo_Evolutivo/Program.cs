@@ -16,9 +16,9 @@ namespace Algoritmo_Evolutivo
             int generacion = 1;
             while (!logrado)               
             {
-                int puntuacionMayor = -1;
+                int puntuacionMayor = cadena.getPuntuacion(objetivo);
                 string cadenaString = cadena.getCadena();
-                for (int i=1; i<50000; i++)             
+                for (int i=1; i<50; i++)             
                 {
                     Cadena cadenaMutar = new Cadena(cadenaString);
                     cadenaMutar.mutar();
